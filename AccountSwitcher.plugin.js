@@ -222,8 +222,8 @@ class AccountSwitcher {
 			rm.appendTo(wrapper);
 			menu.appendChild(wrapper);
 			// TODO: Add tooltip when it is working again
-			//new ZLibrary.Tooltip(av, a.name);
-			//new ZLibrary.Tooltip(rm, "Remove Account");
+			new ZLibrary.Tooltip(av, a.name);
+			new ZLibrary.Tooltip(rm, "Remove Account");
 		});
 		document.body.appendChild(menu);
 		let l = (e2)=>{
